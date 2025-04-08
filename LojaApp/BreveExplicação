@@ -1,0 +1,24 @@
+-- Eliminei repetições com o uso de classe e métodos reutilizáveis:
+    Onde: criei a classe Produto, criei metodos como CalcularPrecoFinal() 'faz o calculo do desconto',
+    ExibirPrecoFinal() 'imprime o nome + o preço final'
+
+-- Ultilazando o metodos reutilizaveis consegui remover a repetição de 3 veses que tinha no system.out.println:
+   Usando a produto.exibirPrecoFinal(); onde ja calcula e imprime dentro do metodo 
+
+-- Apliquei o encapsulamento e responsablidade unica:
+   Onde variaveis como nome, preco, percentualDesconto estao privadas,
+   O aceeso de manipulação sao feitos somente dentro da classe, protegendo od dados.
+   A classe 'Produto' tem apenas uma resonsabilidade, o metodo 'main' so cria objetos e chama funcões, nao faz logica de calculo diretamente.
+
+-- Deixei o codigo mais limpo e escalavel e legivel:
+  'mais limpo:' não tem codigo reptido.
+  'mais legivel:' facil entender oque cada parte faz.
+  'mais escalavel:' se caso quiser adicionar outro produto.
+
+-- Antes o codigo repitia a mesma logica para cada produto, mudando o nome, preço e porcentagem:
+    Onde agora 'A lógica (cálculo + exibição) tá dentro da classe',
+    onde você só precisa mudar os dados quando criar o objeto
+
+    
+
+   
